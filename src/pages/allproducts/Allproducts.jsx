@@ -5,7 +5,7 @@ import Layout from '../../components/layout/Layout'
 import myContext from '../../context/data/myContext'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart } from '../../redux/cartSlice'
-
+//all the functions are here
 function Allproducts() {
   const context = useContext(myContext)
   const { mode, product ,searchkey, setSearchkey,filterType,setFilterType,
